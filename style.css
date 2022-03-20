@@ -1,0 +1,126 @@
+.nav{
+    display: flex;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: small;
+    text-align: center;
+    justify-content:space-between ;
+}
+.logo{
+    height: 30px;
+    padding: 5px 5px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+
+    
+
+}
+nav span ul li{
+    padding: 0px 8px;
+    text-align: center;
+    cursor: pointer;
+}
+button{
+    background-color: rgb(22, 209, 22);
+    color: white;
+    font-size: 15px;
+    height: 25px;
+    margin: 8px;
+    cursor: pointer;
+}
+.container{
+    background-color: black;
+    text-align: center;
+    background-image:url("bg.jpg");  
+    display: flex; 
+    width: 80%;
+    min-height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 23px auto;
+    border-radius: 15px;
+    padding: 34px;
+}
+h1{
+    margin: 0px;
+    color: white;
+}
+    
+
+.bottom{
+    background-color: black;
+    height: 80px;
+
+}
+
+#myprogessbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+.icons i{
+    padding-left: 10px;
+    color: white;
+    padding-right: 10px;
+    cursor: pointer;
+}
+nav span{
+    display: inline-flex;
+}
+body{
+    margin: 0%;
+    background-color: antiquewhite;
+    color: white;
+}
+.songname{
+    color: black;
+}
+.songitem{
+    display: flex;
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin: 15px;
+
+}
+.songitem img{
+    margin: 0 20px;
+    border-radius: 50%;
+
+}
+.songlist{
+    width: 50%;
+}
+.timespan{
+    margin: 0 23px;
+}
+
+.songinfo{
+    height: 5px;
+    width: 5px;
+    display: flex;
+}
+
+#gif{
+    height: 15px;
+    padding-right: 15px;
+    opacity: 0;
+    transform: 0.8s ease-in;
+
+}
+.songitemplay{
+    cursor: pointer;
+}
